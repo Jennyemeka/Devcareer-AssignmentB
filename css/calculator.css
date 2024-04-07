@@ -1,0 +1,45 @@
+/* Calculator Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.calculator {
+    border: 2px solid #b300ad;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+   
+}
+
+.calculator input[type="text"], .calculator button {
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.calculator input[type="text"] {
+    width: calc(100% - 10px);
+    text-align: right;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid #bebcbc;
+    padding: 20px 10px;
+    border-radius: 50px;
+}
