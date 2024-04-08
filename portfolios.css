@@ -22,6 +22,7 @@ a:hover {
   bottom: 0;
   width: 300px;
   padding: 20px;
+
   background-color: #140410;
   overflow-y: auto;
 }
