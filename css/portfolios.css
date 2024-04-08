@@ -1,0 +1,311 @@
+/* Global Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  background-color: #262c38;
+}
+
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #37b3ed;
+}
+
+/* Header Styles */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: #140410;
+  overflow-y: auto;
+}
+
+.profile img {
+  margin: 15px auto;
+  display: block;
+  width: 200px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+}
+
+ h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 20px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.social-links a:hover {
+  color: #149ddd;
+}
+
+/* Main Content Styles */
+#main {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #173b6c;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+}
+
+.skills .progress {
+  height: 60px;
+  background-color: #f5f8fd;
+  margin-bottom: 20px;
+}
+
+.skills .progress .skill {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.skills .progress-bar-wrap {
+  background-color: #dce8f8;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.skills .progress-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #149ddd;
+}
+
+/* Footer Styles */
+#contact {
+  padding: 20px;
+  background-color: #040b14;
+  color: #f4f6fd;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-link {
+  font-size: 24px;
+  color: #f4f6fd;
+}
+
+.social-link:hover {
+  color: #149ddd;
+}
+
+#other-skills {
+  background-color: #fff;
+  margin: 20px 50px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#other-skills {
+  background-image: linear-gradient(to bottom left, #ffffff, #e89cdd);
+  box-shadow: #b300ad;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#other-skills .skill-category {
+  border-bottom: none;
+}
+
+.skills-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.skills-list li:before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#project-links {
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+
+#project-links h2 {
+  font-size: 24px;
+  color: #b300ad; 
+  margin-bottom: 20px;
+}
+
+#project-links a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333; 
+  transition: color 0.3s ease; 
+}
+
+#project-links a:hover {
+  color: #b300ad; 
+}
+
+/* Footer styles */
+form{
+  background-color: #ffffff;
+  margin: 20px 50px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom left, #ffffff, #e89cdd);
+  font-size: 24px;
+  color: #b300ad;
+  margin-bottom: 20px;
+  
+
+}
+
+
+h2 {
+  font-size: 24px;
+  color: #b300ad;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form select {
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #b300ad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+form input[type="submit"]:hover {
+  background-color: #b300ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form input[type="submit"]:hover {
+  background-color: #645061; 
+}
+
+.submit{
+  width: 50%;
+}
+
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+/* Style the icons */
+.social-link i {
+  margin-right: 5px;
+}
+
+
